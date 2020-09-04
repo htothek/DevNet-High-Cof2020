@@ -2,7 +2,6 @@
 
 import random
 import ipaddress
-import json
 
 # TODO: Write a print statement that displays both the type and value of 'ip'
 ip = "10.1.1.200"
