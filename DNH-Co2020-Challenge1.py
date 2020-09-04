@@ -36,8 +36,6 @@ Example:
 Input would be '10.1.1.0/24' and when printed out the output would be '10.1.1.0/255.255.255.0'
 '''
 
-print(ipaddress.IPv4Interface(ip).with_netmask)
-
 
 print(cidr_to_netmask(ip))
 
