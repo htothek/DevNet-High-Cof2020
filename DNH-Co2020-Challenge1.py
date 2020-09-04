@@ -4,7 +4,8 @@ import random
 import ipaddress
 
 # TODO: Write a print statement that displays both the type and value of 'ip'
-ip = "10.1.1.200"
+ip = ["10.1.1.200","10.10.10.0/24","172.16.0.0/16","10.10.10.0/31"]
+
 
 # TODO: Write a conditional to print out if `iosversion` is less than or greater than 14
 i = random.randint(12, 17)
@@ -36,12 +37,10 @@ Input would be '10.1.1.0/24' and when printed out the output would be '10.1.1.0/
 '''
 
 
-print(cidr_to_netmask(ip))
+for ipaddr in ip:
+  print(cidr_to_netmask(ipaddr))
 
-print(cidr_to_netmask('10.10.10.0/24'))
 
-print(cidr_to_netmask('172.16.0.0/16'))
 
-print(cidr_to_netmask('10.10.10.0/31'))
 
 
