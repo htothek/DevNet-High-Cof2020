@@ -6,18 +6,14 @@ import ipaddress
 # TODO: Write a print statement that displays both the type and value of 'ip'
 ip = "10.1.1.200"
 
-print(ip)
-print(type(ip))
+print('Value: '+ip+' Type: '+str(type(ip)))
 
 
 
 # TODO: Write a conditional to print out if `iosversion` is less than or greater than 14
 i = random.randint(12, 17)
-if i>14:
-  version_output = ' ( >14)' 
-else:
-  version_output = ' ( <14)'
-print('i is {}'.format(i) + version_output)
+if i>14 or i<14:
+  print('i is {}'.format(i))
 
 
 
